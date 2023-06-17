@@ -1,5 +1,4 @@
 import { HiStar } from "react-icons/hi";
-import "./Card.css";
 
 function Card({ photo, superHost, type, beds, rating, title }) {
   return (
@@ -23,7 +22,7 @@ function Card({ photo, superHost, type, beds, rating, title }) {
           <span> . {beds} beds</span>
         </p>
 
-        <p className="text-sm font-medium flex items-center pa">
+        <p className="text-sm font-medium flex items-center">
           <HiStar className="text-base text-orange-10" /> {rating}
         </p>
       </div>
