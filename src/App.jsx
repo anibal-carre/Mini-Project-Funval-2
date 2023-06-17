@@ -30,7 +30,7 @@ function App() {
       {/* Aquí te dejo un ejemplo de cómo podrías imprimir varios elementos a la vez. */}
       {data.map((el, i) => {
         return (
-          <h1 className=" text-lime-500" key={i}>
+          <h1 className=" text-orange-10" key={i}>
             {el.city}
           </h1>
         );
